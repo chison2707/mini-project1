@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-root {
+:root {
     --color-one: #103178;
     --color-two: #FEC700;
     --color-text: #5B6C8E;
@@ -10,4 +10,15 @@ root {
 
 body {
     font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
