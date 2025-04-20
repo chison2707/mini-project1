@@ -320,6 +320,27 @@
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.section-two .inner-wrap .inner-box:nth-child(3) .inner-title,
+.section-two .inner-wrap .inner-box:nth-child(2) .inner-title {
+    color: var(--color-one);
+    font-weight: 700;
+}
+
+.section-two .inner-wrap .inner-price-new,
+.section-two .inner-wrap .inner-box:nth-child(2) .inner-sale {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-two);
+}
+
+.section-two .inner-wrap .inner-price-old {
+    font-size: 24px;
+    font-weight: 600;
+    color: #BBBBBB;
+    text-decoration: line-through;
 }
 
 @media (max-width: 992px) {
